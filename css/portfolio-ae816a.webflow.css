@@ -3727,13 +3727,13 @@ figure {
 }
 
 .display-1.for-rotator.absolute._3 {
-  color: #68d4ff;
+  color: #8b56ba;
   -o-object-fit: contain;
   object-fit: contain;
 }
 
 .display-1.for-rotator._4 {
-  color: #8b56ba;
+  color: #68d4ff;
 }
 
 .hero-text {
@@ -4815,6 +4815,14 @@ figure {
 
 .copyright {
   margin-bottom: 0px;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   color: hsla(0, 0%, 100%, 0.7);
   font-size: 15px;
   line-height: 20px;
@@ -6138,6 +6146,15 @@ figure {
     -webkit-transform: translate(-50%, 0px);
     -ms-transform: translate(-50%, 0px);
     transform: translate(-50%, 0px);
+  }
+
+  .display-1.for-rotator.absolute._3 {
+    display: none;
+    color: #8b56ba;
+  }
+
+  .display-1.for-rotator._4 {
+    display: block;
   }
 
   .display-1.order {
